@@ -26,11 +26,11 @@ def parse_codonw_output_file(in_file):
 	return([median_perc_gc, median_gc3, median_nc])
 
 
-codonw_exe = "/data/home/szhan/projects/misc/cp-red/bin/codonW/codonw"
+codonw_exe = "bin/codonW/codonw"
 codonw_args = "-all_indices -nomenu -silent"
 codonw_suffix = ".nt.out"
 
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+in_base_dir = "analysis2/"
 in_suffix = ".nt.aln"
 
 out_results_file = in_base_dir + "codonw/codonw_results.txt"

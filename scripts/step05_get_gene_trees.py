@@ -7,7 +7,7 @@ import re
 #seq_type = "nt"
 seq_type = "aa"
 
-home_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+home_dir = ""
 in_dir = home_dir + "gene_msas/"
 in_suffix = "." + seq_type + ".phy"
 out_dir = home_dir + "gene_trees/" + seq_type + "/"

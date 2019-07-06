@@ -9,7 +9,7 @@ from numpy import mean
 seq_type = sys.argv[1]
 assert seq_type in ['aa', 'nt']
 
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/"
+in_base_dir = ""
 in_file = in_base_dir + "metadata/accessions_analysis2.txt"
 in_dir = in_base_dir + "analysis2/gene_msas/"
 out_dir = in_base_dir + "analysis2/min_set/"
@@ -18,7 +18,7 @@ in_suffix = "." + seq_type + ".aln"
 out_prefix = "min_set_" + seq_type
 out_file = out_dir + "/" + out_prefix + ".aln"
 
-bin_dir = "/data/home/szhan/projects/misc/1kp/bin/"
+bin_dir = "bin/"
 raxml_exe = bin_dir + "standard-RAxML-8.2.11/raxmlHPC-PTHREADS-AVX"
 
 

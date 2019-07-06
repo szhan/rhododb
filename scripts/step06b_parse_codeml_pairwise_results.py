@@ -84,7 +84,7 @@ def compute_dNdS_statistics(in_file_dN, in_file_dS):
 	return dNdS_stats
 
 
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+in_base_dir = "analysis2/"
 in_suffix = ".nt.aln"
 in_result_dir = in_base_dir + "/codeml_pairwise/"
 out_result_file = in_result_dir + "/codeml_pairwise_results.txt"

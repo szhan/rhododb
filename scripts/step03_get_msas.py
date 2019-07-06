@@ -5,11 +5,10 @@ from collections import Counter
 from Bio import SeqIO
 
 
-bin_dir = "/data/home/szhan/projects/misc/1kp/bin/"
 muscle_exe = "muscle3.8.31_i86linux64"
 
 
-home_dir = "/data/home/szhan/projects/misc/cp-red/"
+home_dir = ""
 aln_dir = home_dir + "analysis2/gene_msas/"			# CHANGE
 tre_dir = home_dir + "analysis2/gene_trees/"			# CHANGE
 

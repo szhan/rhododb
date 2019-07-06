@@ -12,7 +12,7 @@ subset_size = int(sys.argv[2])
 
 assert seq_type in ['aa', 'nt']
 
-in_base_dir = "/data/home/szhan/projects/misc/plastid_marker_analysis/"
+in_base_dir = ""
 in_file = in_base_dir + "metadata/accessions_analysis2.txt"
 in_dir = in_base_dir + "analysis2/gene_msas/"
 out_dir = in_base_dir + "analysis2/subsets/" + seq_type + "/"

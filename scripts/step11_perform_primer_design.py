@@ -26,11 +26,11 @@ def generate_random_seed(seed_len=5):
 	return "".join([str(randint(1,9)) for _ in range(seed_len)])
 
 
-bin_dir = "/data/home/szhan/projects/misc/1kp/bin/"
+bin_dir = "bin/"
 raxml_exe = bin_dir + "standard-RAxML-8.2.11/raxmlHPC-PTHREADS-AVX"
 
 in_gene = sys.argv[1]
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+in_base_dir = "analysis2/"
 in_msa_dir = in_base_dir + "gene_msas/"
 in_msa_nt_file = in_msa_dir + in_gene + ".nt.aln"
 in_msa_aa_file = in_msa_dir + in_gene + ".aa.aln"

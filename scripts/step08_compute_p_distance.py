@@ -44,7 +44,7 @@ def compute_p_distance(in_file):
 	return median_p_dist, a_len_list[0]
 
 
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+in_base_dir = "analysis2/"
 in_msa_dir = in_base_dir + "gene_msas/"
 out_result_file = in_base_dir + "p_distance/p_dist.txt"
 

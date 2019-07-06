@@ -9,7 +9,7 @@ Extracts CDS features and their sequences from GenBank entries,\
 prints them out in a FastA file with description lines formatted.
 '''
 
-home_dir = "/data/home/szhan/projects/misc/cp-red/"
+home_dir = ""
 data_dir = home_dir + "analysis2/data/"				# CHANGE
 info_file = home_dir + "metadata/accessions_analysis2.txt"	# CHANGE
 

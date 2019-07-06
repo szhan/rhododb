@@ -6,12 +6,12 @@ from Bio import SeqIO
 
 
 # ran TransDecoder as follows:
-#TD_DIR="/data/home/szhan/projects/misc/1kp-algae/bin/TransDecoder-3.0.0/"
+#TD_DIR="bin/TransDecoder-3.0.0/"
 #$TD_DIR"/TransDecoder.LongOrfs" -m 50 -t sequence.cds.fa
 #$TD_DIR"/TransDecoder.Predict" --single_best_orf -t sequence.cds.fa
 
 
-home_dir = "/data/home/szhan/projects/misc/cp-red/"
+home_dir = ""
 info_file = home_dir + "metadata/accessions_analysis2.txt"	# CHANGE
 
 in_dir = home_dir + "analysis2/data/"				# CHANGE

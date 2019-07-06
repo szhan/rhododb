@@ -72,7 +72,7 @@ def prepare_codeml_run(gene_name, msa_file, gene_tree_file, species_tree_file, b
 
 
 # prepare codeml files, gene by gene
-in_base_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/"
+in_base_dir = "analysis2/"
 in_suffix = ".nt.aln"
 in_species_tree_file = in_base_dir + "species_trees/nt_reduced/RAxML_bestTree.concat_nt_reduced"
 out_base_dir = in_base_dir + "codeml_pairwise/"

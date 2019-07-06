@@ -3,7 +3,7 @@ from collections import OrderedDict
 from Bio import SeqIO, AlignIO
 
 
-home_dir = "/data/home/szhan/projects/misc/cp-red/"
+home_dir = ""
 aln_dir = home_dir + "analysis2/gene_msas/"		# CHANGE
 part_dir = home_dir + "analysis2/partitions/"		# CHANGE
 

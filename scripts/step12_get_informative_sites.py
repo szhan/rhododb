@@ -3,7 +3,7 @@ from os import listdir
 from amas import AMAS
 
 
-in_msa_dir = "/data/home/szhan/projects/misc/cp-red/analysis2/gene_msas/"
+in_msa_dir = "analysis2/gene_msas/"
 in_suffix = ".nt.aln"
 in_data_type = "dna"
 out_stats_file = in_data_type + ".stats.txt"
