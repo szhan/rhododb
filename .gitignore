@@ -3,6 +3,9 @@ analysis1/
 manuscript/
 presentations/
 
+min_set/
+subsets/
+
 *.tre
 *_GTRGAMMAI
 *.Rhistory
