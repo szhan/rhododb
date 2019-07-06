@@ -1,0 +1,1 @@
+bin/standard-RAxML-8.2.11/raxmlHPC-PTHREADS-AVX -T 32 -p 16237 -f a -x 32948 -# 100 -s analysis2/partitions/nt/concat.nt.phy -w analysis2/species_trees/nt_reduced/ -q analysis2/species_trees/nt_reduced/part.raxml.nt_reduced.txt -n concat_nt_reduced -m GTRGAMMA
