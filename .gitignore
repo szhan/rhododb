@@ -3,5 +3,6 @@ analysis1/
 manuscript/
 presentations/
 
+*.tre
 *_GTRGAMMAI
 *.Rhistory
