@@ -1,4 +1,4 @@
-result_file <- "../manuscript/revision2/tableS2.txt"
+result_file <- "../manuscript/revision2/tableS3.txt"
 graph_file <- "Figure4.pdf"
 
 
