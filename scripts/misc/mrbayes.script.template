@@ -1,0 +1,19 @@
+#NEXUS
+begin mrbayes;
+set autoclose=yes nowarn=yes;
+
+execute NXS_FILE;
+
+begin trees;
+ tree fixed_tree = TREE_NEWICK
+end;
+
+lset nst=6 rates=gamma;
+prset brlenspr=clock:birthdeath;
+prset topologypr = fixed(fixed_tree);
+prset clockvarpr=igr;
+
+mcmc nruns=1 nchains=1 ngen=1000000 samplefreq=1000 file=TREE_FILE;
+
+end;
+
