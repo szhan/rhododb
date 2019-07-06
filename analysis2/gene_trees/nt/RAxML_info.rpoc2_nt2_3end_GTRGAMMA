@@ -1,0 +1,54 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 3418 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 15.49%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 100 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3418
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/data/home/szhan/projects/misc/1kp/bin/standard-RAxML-8.2.11/raxmlHPC-PTHREADS-AVX -T 32 -f a -p 59825 -x 22487 -# 100 -s /data/home/szhan/projects/misc/plastid_marker_analysis/analysis2/gene_msas/rpoc2.nt2.3end.phy -w /data/home/szhan/projects/misc/plastid_marker_analysis/analysis2/gene_trees/nt/ -n rpoc2_nt2_3end_GTRGAMMA -m GTRGAMMA 
+
+
+
+Time for BS model parameter optimization 256.779991
