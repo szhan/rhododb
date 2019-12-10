@@ -7,4 +7,4 @@ Selection of appropriate genetic markers to quantify phylogenetic diversity is c
 Zhan SH, Shi CC, and Liu SL. Reappraising plastid markers of the red algae for phylogenetic community ecology in the genomic era. Accepted at *Evol Ecol*.
 
 #### Contact
-Maintainer: Shing Hei Zhan
+Maintainer: Shing Hei Zhan (Biodiversity Research Centre & Dept. of Zoology, the University of British Columbia)
